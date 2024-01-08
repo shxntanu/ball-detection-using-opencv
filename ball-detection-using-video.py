@@ -3,6 +3,8 @@ import cv2
 import os
 import numpy as np
 
+print(cv2.__version__)
+
 #Reading the video
 vidcap = cv2.VideoCapture(0)
 success,image = vidcap.read()
